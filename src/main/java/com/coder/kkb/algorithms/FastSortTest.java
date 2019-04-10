@@ -4,8 +4,8 @@ package com.coder.kkb.algorithms;
 public class FastSortTest {
 
 	
-	static int[]  orgInts = {5,11,2,9,4,0,12,8,6,10,1,3};
-	
+//	static int[]  orgInts = {-18, 12, 3, 0};
+	static int[]  orgInts = {3, 3};
 	public static void sort(int ints[] ,int begin ,int end){
 		
 		if(begin<end){
@@ -17,7 +17,7 @@ public class FastSortTest {
 			
 			while(i<j){
 				
-				while(i<j&&num<orgInts[j]){
+				while(i<j&&num<=orgInts[j]){
 					j--;
 				}
 				
@@ -25,7 +25,7 @@ public class FastSortTest {
 					orgInts[i++] = orgInts[j];
 				}
 				
-				while(i<j&&num>orgInts[i]){
+				while(i<j&&num>=orgInts[i]){
 					i++;
 				}
 				
