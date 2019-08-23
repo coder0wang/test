@@ -12,7 +12,6 @@ public class Lambda {
 //		for (String player : players) {
 //			System.out.print(player + ";");
 //		}
-
 		// 使用lambda表达式以及函数操作(functionaloperation)
 		 players.forEach((player) -> System.out.print(player + ";"));
 
@@ -22,6 +21,5 @@ public class Lambda {
 	
 	
 	public static void main(String[] args) {
-		test();
 	}
 }
