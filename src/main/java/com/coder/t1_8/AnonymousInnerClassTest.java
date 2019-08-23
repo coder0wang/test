@@ -20,13 +20,9 @@ public class AnonymousInnerClassTest {
 
 	        integers.sort((o1,o2)->o1.compareTo(02));
 	        System.out.println("lambda1表达式排序输出:"+integers);
-
-
 	        integers.sort(Integer::compareTo);
 	        System.out.println("lambda2表达式排序输出:"+integers);
-
 	}
 	public static void main(String[] args) {
-		sort();
 	}
 }
