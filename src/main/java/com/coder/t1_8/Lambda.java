@@ -8,7 +8,6 @@ public class Lambda {
 		String[] atp = { "RafaelNadal", "NovakDjokovic", "StanislasWawrinka", "DavidFerrer", "RogerFederer",
 				"AndyMurray", "TomasBerdych", "JuanMartinDelPotro" };
 		List<String> players = Arrays.asList(atp);
-
 		// 以前的循环方式
 //		for (String player : players) {
 //			System.out.print(player + ";");
