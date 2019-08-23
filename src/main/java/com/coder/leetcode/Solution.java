@@ -82,18 +82,18 @@ class NumSum {
     }
     
     
-    public static int[] twoSum2(int[] nums, int target) {
-        int[] map = new int[16100];
-        for(int i=0;i<nums.length-1;i++){
-            map[nums[i]+4]=i+1;
-            int comp = (target-nums[i+1])+4;
-            if(comp<0)continue;
-            if(map[comp]>0){
-                return new int[]{map[comp]-1,i+1};
-            }
-        }
-        return null;
-    }
+//    public static int[] twoSum2(int[] nums, int target) {
+//        int[] map = new int[16100];
+//        for(int i=0;i<nums.length-1;i++){
+//            map[nums[i]+4]=i+1;
+//            int comp = (target-nums[i+1])+4;
+//            if(comp<0)continue;
+//            if(map[comp]>0){
+//                return new int[]{map[comp]-1,i+1};
+//            }
+//        }
+//        return null;
+//    }
     
     public static void main(String[] args) {
 //        int[] nums =
@@ -107,7 +107,7 @@ class NumSum {
 //        int[] nums ={3,3};
 //        int target = 6;
         
-        int[] result =  twoSum2(nums,target);
+        int[] result =  twoSum(nums,target);
         System.out.println(result[0]);
         System.out.println(result[1]);
         

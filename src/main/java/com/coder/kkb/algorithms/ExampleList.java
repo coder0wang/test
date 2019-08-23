@@ -10,7 +10,7 @@ import java.util.List;
  * @version: 2019年1月28日 下午5:03:44
  */
 public class ExampleList {
-	static int length = 16;
+	static int length = 320;
 	public static List<String> listNoLength = new ArrayList<>();
 	public static List<String> listLength = new ArrayList<>(length);
 	public static void addList(int sign){

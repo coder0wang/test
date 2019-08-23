@@ -26,18 +26,13 @@ public class NoRepeatNumLength {
                 int signNum = tempStr.indexOf(nowStr);
 
                 if (signNum != -1) {
-                    /**
-                     * 数组迁移
-                     */
                     tempStr = new StringBuilder(tempStr.substring(signNum+1));
-                    
                 }
             }
             tempStr.append(nowStr);
             nowNum = tempStr.length();
             maxNum = maxNum > nowNum ? maxNum : nowNum;
         }
-        System.out.println(maxNum);
         return maxNum;
     }
 

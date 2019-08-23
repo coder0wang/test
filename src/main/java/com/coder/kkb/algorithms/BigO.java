@@ -1,7 +1,7 @@
 package com.coder.kkb.algorithms;
 
-public class BigO {
 
+public class BigO {
 	static Integer[]  orgInts = {5,11,2,9,4,0,12,8,6,10,1,3};
 	
 	/**

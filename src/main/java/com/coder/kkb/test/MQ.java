@@ -1,4 +1,8 @@
 package com.coder.kkb.test;
+
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 
  * 此类描述的是：  
@@ -6,6 +10,8 @@ package com.coder.kkb.test;
  * @version: 2019年3月30日 下午6:44:00
  */
 public class MQ {
+    
+    Map<String,String> map = new HashMap<String,String>();
     
     /**
      * 下单方法
